@@ -4,4 +4,6 @@ If you are interested to participating in this project with development, documen
 
  http://groups.google.com/group/jabberoid-discuss
 
+for a membership.
+
 This project was just founded (25th October 2008), so there is a lot of work to do until the first stable release can take place. Nevertheless, the basic implementations are already made.
