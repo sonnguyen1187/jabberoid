@@ -1,15 +1,5 @@
-#summary Welcome people who are interested in this project
-
 = Welcome to Jabberoid =
 
 If you are interested to participating in this project with development, documentation or organisation, feel free to contact one of the project owners.
 
 This project was just founded (25th October 2008), so there is a lot of work to do until the first stable release can take place. Nevertheless, the basic implementations are already made.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
