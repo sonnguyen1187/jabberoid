@@ -1,6 +1,6 @@
 = Welcome to Jabberoid =
 
-If you are interested to participating in this project with development, documentation or organisation, feel free to contact one of the project owners or ask in the Google group
+If you are interested to participating in this project with development, documentation or organisation, feel free to contact one of the project owners or ask in the Google Group
 
  http://groups.google.com/group/jabberoid-discuss
 
