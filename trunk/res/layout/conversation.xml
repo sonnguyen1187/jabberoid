@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+	<LinearLayout android:id="@+id/conversationLinear1"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#22A5B0E4"
+		android:padding="3dip"
+		android:paddingTop="6dip"
+		>
+		<Spinner android:id="@+id/conversationSwitcher"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+
+		/>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/conversationLinear2"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:background="#FFF"
+		
+		>
+		<ScrollView android:id="@+id/conversationScroller"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			
+			>
+		<TextView android:id="@+id/conversationWindow"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent"
+			android:paddingBottom="8dip"
+			
+			android:textColor="#000"
+			
+			
+		
+		/>
+		</ScrollView>
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#CCA5B0E4"
+		android:padding="3dip"
+		>
+		<EditText android:id="@+id/messageInput"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:maxLines="3"
+			android:minLines="1"
+			android:layout_weight="1"
+			android:hint="Type text and press Enter to send"
+		/>
+		<Button android:id="@+id/sendButton"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:text="@string/send"
+			android:paddingLeft="20dip"
+			android:paddingRight="20dip"/>
+	</LinearLayout>
+
+</LinearLayout>

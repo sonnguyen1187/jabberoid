@@ -1,0 +1,85 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Manage Jabber Account">
+		<EditTextPreference
+			android:key="@string/prefJabberIdKey"
+			android:title="@string/prefJabberId"
+			android:summary="@string/prefJabberIdSummary"
+			android:hint="user@jabberserver.tld"
+		/>
+		<EditTextPreference
+			android:key="@string/prefPasswordKey"
+			android:title="@string/prefPassword"
+			android:summary="@string/prefPasswordSummary"
+			android:dialogTitle="@string/prefPasswordDialog"
+			android:password="true"
+		/>
+		<EditTextPreference
+			android:key="@string/prefResourceKey"
+			android:title="@string/prefResource"
+			android:summary="@string/prefResourceSummary"
+			android:hint="A simple word like 'Mobile'"
+		/>
+		<ListPreference
+			android:key="@string/prefResourcePriorityKey"
+			android:title="@string/prefResourcePriority"
+			android:summary="@string/prefResourcePrioritySummary"
+			android:entries="@array/resourcePriorityName"
+			android:entryValues="@array/resourcePriority"
+			
+		android:defaultValue="5"/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Connection Settings">
+		<EditTextPreference
+			android:key="@string/prefServerKey"
+			android:title="@string/prefServer"
+			android:summary="@string/prefServerSummary"
+			android:hint="jabber.xxx.org"
+		/>
+		<EditTextPreference
+			android:key="@string/prefServerPortKey"
+			android:title="@string/prefServerPort"
+			android:summary="@string/prefServerPortSummary"
+			android:numeric="integer"
+			android:maxLength="5"
+			android:defaultValue="5222"
+			android:hint="A value between 0 and 65000"
+		/>
+		<CheckBoxPreference
+			android:key="@string/prefEnableSaslKey"
+			android:title="@string/prefEnableSasl"
+			android:summary="@string/prefEnableSaslSummary"
+			android:defaultValue="true"
+		/>
+		<CheckBoxPreference
+			android:key="@string/prefEnableTlsKey"
+			android:title="@string/prefEnableTls"
+			android:summary="@string/prefEnableTlsSummary"
+			android:defaultValue="true"
+		/>
+		
+		<CheckBoxPreference
+			android:key="@string/prefAllowPlainPasswdKey"
+			android:title="@string/prefAllowPlainPasswd"
+			android:summary="@string/prefAllowPlainPasswdSummary"
+		/>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Privacy">
+		<CheckBoxPreference
+			android:key="moo2"
+			android:title="@string/prefHideSystem"
+			android:summary="@string/prefHideSystemSummary"
+		/>
+		<CheckBoxPreference
+			android:key="moo2"
+			android:title="@string/prefHideNotifications"
+			android:summary="@string/prefHideNotificationsSummary"
+		/>
+		<CheckBoxPreference
+			android:key="@string/prefLogMessagesKey"
+			android:title="@string/prefLogMessages"
+			android:summary="@string/prefLogMessagesSummary"
+			android:defaultValue="true"
+		/>
+	</PreferenceCategory>
+
+</PreferenceScreen>

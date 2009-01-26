@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	>
+	<ListView android:id="@id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	
+	</ListView>
+	
+	<!-- used if no new message is in the db -->
+	<TextView android:id="@+id/contactList_NoConversation"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:text="@string/conversationList_noNewMessage">
+	</TextView>
+</LinearLayout>

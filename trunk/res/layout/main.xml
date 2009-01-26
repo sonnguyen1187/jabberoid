@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="5dip"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip"
+    android:layout_centerHorizontal="true"
+    >
+	<Spinner android:id="@+id/status"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+
+	/>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="3sp"
+		android:paddingBottom="3sp"
+		android:orientation="horizontal"
+
+		>
+		<ImageButton android:id="@+id/butSettings"
+		android:src="@drawable/settings_small"
+		android:layout_width="45sp"
+		android:layout_height="45sp"
+		android:padding="1sp"
+		/>
+		<ImageButton android:id="@+id/butAddUser"
+		android:src="@drawable/add_user"
+		android:layout_width="45sp"
+		android:layout_height="45sp"
+		
+		/>
+		<ImageButton android:id="@+id/butEditStatus"
+		android:src="@drawable/editstatusmessage"
+		android:layout_width="45sp"
+		android:layout_height="45sp"
+		
+		/>
+		<ImageButton android:id="@+id/butShowOffline"
+		android:src="@drawable/show_offliners"
+		android:layout_width="45sp"
+		android:layout_height="45sp"
+		
+		/>
+		
+		<TextView android:id="@+id/editMoo"
+		
+		android:layout_width="fill_parent"
+		android:layout_height="45sp"
+		
+		/>
+			
+	</LinearLayout>
+	<LinearLayout android:id="@+id/tabContacts"
+				android:layout_width="fill_parent"
+    			android:layout_height="fill_parent"
+    			android:orientation="vertical"
+    			android:padding="0dip"
+    >
+    <ExpandableListView android:id="@+id/contactList"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+			    	android:background="@drawable/listbg3"
+    				android:indicatorLeft="14sp"
+    				android:childIndicatorLeft="14sp"
+    			/>
+	
+   </LinearLayout>
+</LinearLayout>

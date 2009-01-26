@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	Strings for Jabberoid Buttons, Labels, Textboxes and Preferences
+	Copyright 2008 Christoph Galler
+	GPLv2
+-->
+
+<resources>
+    <string name="app_name">Jabberoid</string>
+    <string name="settings_name">Jabberoid Settings</string>
+    <string name="conversationList_name">Jabberoid open conversations</string>
+    <string name="conversation_name">Jabberoid</string>
+    <string name="setYourStatus">Set your status:</string>
+    <string name="status">moo</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="ok">OK</string>
+    <string name="apply">Apply</string>
+    <string name="send">Send</string>
+    <string name="addUserDialog_entryLabel">Jabber ID:</string>
+    <string name="addUserDialog_groupSwitcherLabel">Select group:</string>
+    <string name="statusMessageDialog_msgLabel">Enter your message:</string>
+    <string name="statusMessageDialog_msgSwitcherLabel">Saved messages:</string>
+    <string name="conversationList_noNewMessage">There is no new message for you</string>
+    <string name="conversationList_noOpenConversation">No open new or open conversations.</string>
+    
+    
+    <!-- Preferences -->
+    <string name="prefJabberId">Jabber ID</string>
+    <string name="prefJabberIdSummary">Your account name à la user@jabber.org </string>
+	<string name="prefPassword">Password</string>
+    <string name="prefPasswordSummary">The password for your given account. If clear, you will be asked on every login.</string>
+    <string name="prefPasswordDialog">Your password to your Jabber Account</string>
+    <string name="prefResource">Resource Name</string>
+    <string name="prefResourceSummary">Identifier if you have several places from where you login.</string>
+    <string name="prefResourcePriority">Resource Priority</string>
+    <string name="prefResourcePrioritySummary">Set the priority so that the server knows to which client it sends messages without a given resource, if logged in with several clients.</string>
+    
+    <string name="prefServer">Override Server Location</string>
+    <string name="prefServerSummary">In case the default is not used.</string>
+    <string name="prefServerPort">Server Port</string>
+    <string name="prefServerPortSummary">In case the default is not used.</string>
+    <string name="prefEnableTls">Use TLS</string>
+    <string name="prefEnableTlsSummary">Forces the connection to be encrypted, recommended.</string>
+    <string name="prefEnableSasl">Use SASL</string>
+    <string name="prefEnableSaslSummary">Handles authentication and encryption, recommended.</string>
+    <string name="prefAllowPlainPasswd">Allow Plaintext Password Authentication</string>
+    <string name="prefAllowPlainPasswdSummary">Allows the client to authenticate with plain text password</string>
+     
+    <string name="prefHideSystem">Hide System Information</string>
+    <string name="prefHideSystemSummary">Do not send any information about your client nad system</string>
+    <string name="prefHideNotifications">Send notifications</string>
+    <string name="prefHideNotificationsSummary">Closed window, currently typing etc.</string>
+    <string name="prefLogMessages">Log messages</string>
+    <string name="prefLogMessagesSummary">Saves incoming and outgoing messages.</string>
+    
+    <!--  Menus -->
+    <string name="menuCloseConv">Close</string>
+    <string name="menuCloseGoContact">Close &amp; Contactlist</string>
+    <string name="menuReturnContact">Contactlist</string>
+    
+    
+</resources>
