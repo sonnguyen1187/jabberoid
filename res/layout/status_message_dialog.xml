@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    >
+    <TextView android:id="@+id/statusMessageDialog_msgLabel"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/statusMessageDialog_msgLabel"
+    />
+	<EditText 
+		android:id="@+id/statusMessageDialog_msg" 
+ 		android:layout_width="fill_parent" 
+ 		android:layout_height="wrap_content"
+ 		android:lines="3"
+ 		android:maxLines="3"
+ 		android:layout_below="@id/statusMessageDialog_msgLabel"
+ 		android:gravity="top"
+
+	/> 
+	<TextView android:id="@+id/statusMessageDialog_msgSwitcherLabel"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/statusMessageDialog_msgSwitcherLabel"
+    	android:layout_below="@id/statusMessageDialog_msg"
+    />
+    <Spinner android:id="@+id/statusMessageDialog_msgSwitcher"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/statusMessageDialog_msgSwitcherLabel"
+    	/>
+
+
+</RelativeLayout>
+<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#AAFFFFFF"
+    	android:padding="5dip"
+    	android:paddingTop="7dip"
+    	>
+	<Button android:id="@+id/statusMessageDialog_confirm"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/confirm"
+		android:layout_weight="1"
+
+	/>
+	<Button android:id="@+id/statusMessageDialog_cancel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/cancel"
+		android:layout_weight="1"
+	/>
+	</LinearLayout>
+</LinearLayout>

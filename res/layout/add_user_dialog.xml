@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	>
+	<RelativeLayout 
+	android:id="@+id/linearLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:paddingBottom="8dip"
+    >
+    <TextView android:id="@+id/addUserDialog_entryLabel"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/addUserDialog_entryLabel"
+    />
+	<EditText 
+		android:id="@+id/addUserDialog_entry" 
+ 		android:layout_width="fill_parent" 
+ 		android:layout_height="wrap_content"
+ 		android:lines="1"
+ 		android:maxLines="2"
+ 		android:layout_below="@id/addUserDialog_entryLabel"
+
+	/> 
+	<TextView android:id="@+id/addUserDialog_groupSwitcherLabel"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/addUserDialog_groupSwitcherLabel"
+    	android:layout_below="@id/addUserDialog_entry"
+    />
+    <Spinner android:id="@+id/addUserDialog_groupSwitcher"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/addUserDialog_groupSwitcherLabel"
+    	/>
+
+
+	</RelativeLayout>
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#AAFFFFFF"
+    	android:padding="5dip"
+    	android:paddingTop="7dip"
+    	>
+    	
+	<Button android:id="@+id/addUserDialog_confirm"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/confirm"
+		android:layout_weight="1"
+	/>
+	<Button android:id="@+id/addUserDialog_cancel"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/cancel"
+		android:layout_weight="1"
+	/>
+	</LinearLayout>
+</LinearLayout>

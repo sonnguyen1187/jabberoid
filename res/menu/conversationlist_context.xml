@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menuCloseChat"
+		android:title="Close Chat" 
+		android:alphabeticShortcut="c"
+		android:icon="@drawable/ic_menu_close_clear_cancel"
+		>
+	</item>
+	<item android:id="@+id/menuEnter"
+		android:title="Enter Chat" 
+		android:alphabeticShortcut="e"
+		android:icon="@drawable/ic_menu_revert"
+		/>
+</menu>
